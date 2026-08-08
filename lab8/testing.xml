@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TutorialsNinjaSuite">
+
+    <test name="LoginLogoutTests">
+
+        <classes>
+
+            <class name="testnglab.LoginTest"/>
+
+            <class name="testnglab.LogoutTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
