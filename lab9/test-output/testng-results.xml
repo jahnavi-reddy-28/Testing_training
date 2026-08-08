@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Mac Heading Verified]]>
+    </line>
+    <line>
+      <![CDATA[Add To Cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Search Result Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Mac Heading Verified]]>
+    </line>
+    <line>
+      <![CDATA[Add To Cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Search Result Verified]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-08-08T14:19:47 IST" name="Default suite" finished-at="2026-08-08T14:20:20 IST" duration-ms="33609">
+    <groups>
+    </groups>
+    <test started-at="2026-08-08T14:19:47 IST" name="Default test" finished-at="2026-08-08T14:20:20 IST" duration-ms="33609">
+      <class name="test.MultiBrowserTest">
+        <test-method signature="chromeTest()[pri:0, instance:test.MultiBrowserTest@1573f9fc]" started-at="2026-08-08T14:19:47 IST" name="chromeTest" finished-at="2026-08-08T14:20:06 IST" duration-ms="19269" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Mac Heading Verified]]>
+            </line>
+            <line>
+              <![CDATA[Add To Cart Verified]]>
+            </line>
+            <line>
+              <![CDATA[Search Result Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- chromeTest -->
+        <test-method signature="edgeTest()[pri:0, instance:test.MultiBrowserTest@1573f9fc]" started-at="2026-08-08T14:20:06 IST" name="edgeTest" finished-at="2026-08-08T14:20:20 IST" duration-ms="14290" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Mac Heading Verified]]>
+            </line>
+            <line>
+              <![CDATA[Add To Cart Verified]]>
+            </line>
+            <line>
+              <![CDATA[Search Result Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- edgeTest -->
+      </class> <!-- test.MultiBrowserTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

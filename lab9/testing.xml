@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MultiBrowserSuite">
+
+    <test name="BrowserTests">
+
+        <classes>
+            <class name="com.test.MultiBrowserTest"/>
+        </classes>
+
+    </test>
+
+</suite>
