@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Register Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Filled personal Details]]>
+    </line>
+    <line>
+      <![CDATA[Filled password Details]]>
+    </line>
+    <line>
+      <![CDATA[Submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account already exists - treated as PASS]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Register Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Filled personal Details]]>
+    </line>
+    <line>
+      <![CDATA[Filled password Details]]>
+    </line>
+    <line>
+      <![CDATA[Submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account already exists - treated as PASS]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Register Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Filled personal Details]]>
+    </line>
+    <line>
+      <![CDATA[Filled password Details]]>
+    </line>
+    <line>
+      <![CDATA[Submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account already exists - treated as PASS]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Register Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Filled personal Details]]>
+    </line>
+    <line>
+      <![CDATA[Filled password Details]]>
+    </line>
+    <line>
+      <![CDATA[Submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account already exists - treated as PASS]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Register Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Filled personal Details]]>
+    </line>
+    <line>
+      <![CDATA[Filled password Details]]>
+    </line>
+    <line>
+      <![CDATA[Submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account already exists - treated as PASS]]>
+    </line>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Home Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Register button]]>
+    </line>
+    <line>
+      <![CDATA[Register Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Filled personal Details]]>
+    </line>
+    <line>
+      <![CDATA[Filled password Details]]>
+    </line>
+    <line>
+      <![CDATA[Submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Account already exists - treated as PASS]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-08-11T11:32:47 IST" name="Default suite" finished-at="2026-08-11T11:33:40 IST" duration-ms="52242">
+    <groups>
+    </groups>
+    <test started-at="2026-08-11T11:32:47 IST" name="Default test" finished-at="2026-08-11T11:33:40 IST" duration-ms="52242">
+      <class name="pac.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:32:47 IST" name="setup" finished-at="2026-08-11T11:32:47 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:32:47 IST" name="beforeTest" finished-at="2026-08-11T11:32:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:32:47 IST" name="beforeClass" finished-at="2026-08-11T11:32:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:32:47 IST" name="beforeMethod" finished-at="2026-08-11T11:32:54 IST" duration-ms="6276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fillRegisterForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:32:54 IST" name="fillRegisterForm" data-provider="RegisterData" finished-at="2026-08-11T11:32:57 IST" duration-ms="2947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[suresh@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543213]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Register Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Filled personal Details]]>
+            </line>
+            <line>
+              <![CDATA[Filled password Details]]>
+            </line>
+            <line>
+              <![CDATA[Submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Account already exists - treated as PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillRegisterForm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:32:57 IST" name="afterMethod" finished-at="2026-08-11T11:32:57 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:32:57 IST" name="beforeMethod" finished-at="2026-08-11T11:33:02 IST" duration-ms="4594" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fillRegisterForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:02 IST" name="fillRegisterForm" data-provider="RegisterData" finished-at="2026-08-11T11:33:04 IST" duration-ms="2455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[priya@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543214]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[welcome1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[welcome1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Register Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Filled personal Details]]>
+            </line>
+            <line>
+              <![CDATA[Filled password Details]]>
+            </line>
+            <line>
+              <![CDATA[Submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Account already exists - treated as PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillRegisterForm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:04 IST" name="afterMethod" finished-at="2026-08-11T11:33:05 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:05 IST" name="beforeMethod" finished-at="2026-08-11T11:33:09 IST" duration-ms="4298" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fillRegisterForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:09 IST" name="fillRegisterForm" data-provider="RegisterData" finished-at="2026-08-11T11:33:12 IST" duration-ms="3155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mahesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mahesh@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543215]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Register Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Filled personal Details]]>
+            </line>
+            <line>
+              <![CDATA[Filled password Details]]>
+            </line>
+            <line>
+              <![CDATA[Submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Account already exists - treated as PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillRegisterForm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:12 IST" name="afterMethod" finished-at="2026-08-11T11:33:14 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:14 IST" name="beforeMethod" finished-at="2026-08-11T11:33:19 IST" duration-ms="5510" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fillRegisterForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:19 IST" name="fillRegisterForm" data-provider="RegisterData" finished-at="2026-08-11T11:33:23 IST" duration-ms="3374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Teja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[teja@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543216]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[teja123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[teja123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Register Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Filled personal Details]]>
+            </line>
+            <line>
+              <![CDATA[Filled password Details]]>
+            </line>
+            <line>
+              <![CDATA[Submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Account already exists - treated as PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillRegisterForm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:23 IST" name="afterMethod" finished-at="2026-08-11T11:33:23 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:23 IST" name="beforeMethod" finished-at="2026-08-11T11:33:28 IST" duration-ms="4706" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fillRegisterForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:28 IST" name="fillRegisterForm" data-provider="RegisterData" finished-at="2026-08-11T11:33:31 IST" duration-ms="2574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[L]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[lakshmi@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543217]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[lakshmi1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[lakshmi1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Register Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Filled personal Details]]>
+            </line>
+            <line>
+              <![CDATA[Filled password Details]]>
+            </line>
+            <line>
+              <![CDATA[Submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Account already exists - treated as PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillRegisterForm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:31 IST" name="afterMethod" finished-at="2026-08-11T11:33:31 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:31 IST" name="beforeMethod" finished-at="2026-08-11T11:33:36 IST" duration-ms="4583" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fillRegisterForm(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:36 IST" name="fillRegisterForm" data-provider="RegisterData" finished-at="2026-08-11T11:33:39 IST" duration-ms="2961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[V]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vinod]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vinod@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543218]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[vinod123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[vinod123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Register button]]>
+            </line>
+            <line>
+              <![CDATA[Register Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Filled personal Details]]>
+            </line>
+            <line>
+              <![CDATA[Filled password Details]]>
+            </line>
+            <line>
+              <![CDATA[Submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Account already exists - treated as PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillRegisterForm -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:39 IST" name="afterMethod" finished-at="2026-08-11T11:33:40 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:40 IST" name="afterClass" finished-at="2026-08-11T11:33:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:40 IST" name="afterTest" finished-at="2026-08-11T11:33:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pac.RegisterTest@2de23121]" started-at="2026-08-11T11:33:40 IST" name="tearDown" finished-at="2026-08-11T11:33:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pac.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
