@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Mac Heading Verified]]>
+    </line>
+    <line>
+      <![CDATA[Add to Cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Desktops]]>
+    </line>
+    <line>
+      <![CDATA[Mac Heading Verified]]>
+    </line>
+    <line>
+      <![CDATA[Add to Cart Verified]]>
+    </line>
+    <line>
+      <![CDATA[Searching Monitors]]>
+    </line>
+    <line>
+      <![CDATA[Searching Phones]]>
+    </line>
+    <line>
+      <![CDATA[Searching Cameras]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-08-12T16:38:06 IST" name="Default suite" finished-at="2026-08-12T16:38:12 IST" duration-ms="6166">
+    <groups>
+    </groups>
+    <test started-at="2026-08-12T16:38:06 IST" name="Default test" finished-at="2026-08-12T16:38:12 IST" duration-ms="6166">
+      <class name="pac.DesktopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pac.DesktopTest@77f1baf5]" started-at="2026-08-12T16:38:03 IST" name="setup" finished-at="2026-08-12T16:38:06 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.DesktopTest@77f1baf5]" started-at="2026-08-12T16:38:06 IST" name="beforeMethod" finished-at="2026-08-12T16:38:08 IST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="DesktopFlow(java.lang.String)[pri:0, instance:pac.DesktopTest@77f1baf5]" started-at="2026-08-12T16:38:08 IST" name="DesktopFlow" data-provider="sortData" finished-at="2026-08-12T16:38:09 IST" duration-ms="1236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (A - Z)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Mac Heading Verified]]>
+            </line>
+            <line>
+              <![CDATA[Add to Cart Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DesktopFlow -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.DesktopTest@77f1baf5]" started-at="2026-08-12T16:38:09 IST" name="beforeMethod" finished-at="2026-08-12T16:38:09 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="DesktopFlow(java.lang.String)[pri:0, instance:pac.DesktopTest@77f1baf5]" started-at="2026-08-12T16:38:09 IST" name="DesktopFlow" data-provider="sortData" finished-at="2026-08-12T16:38:10 IST" duration-ms="936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (Z - A)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Desktops]]>
+            </line>
+            <line>
+              <![CDATA[Mac Heading Verified]]>
+            </line>
+            <line>
+              <![CDATA[Add to Cart Verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DesktopFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pac.DesktopTest@77f1baf5]" started-at="2026-08-12T16:38:12 IST" name="tearDown" finished-at="2026-08-12T16:38:13 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pac.DesktopTest -->
+      <class name="pac.SearchTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.SearchTest@38afe297]" started-at="2026-08-12T16:38:10 IST" name="beforeMethod" finished-at="2026-08-12T16:38:10 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:pac.SearchTest@38afe297]" started-at="2026-08-12T16:38:10 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-12T16:38:11 IST" duration-ms="466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Monitors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching Monitors]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.SearchTest@38afe297]" started-at="2026-08-12T16:38:11 IST" name="beforeMethod" finished-at="2026-08-12T16:38:11 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:pac.SearchTest@38afe297]" started-at="2026-08-12T16:38:11 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-12T16:38:11 IST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching Phones]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:pac.SearchTest@38afe297]" started-at="2026-08-12T16:38:11 IST" name="beforeMethod" finished-at="2026-08-12T16:38:12 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:pac.SearchTest@38afe297]" started-at="2026-08-12T16:38:12 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-12T16:38:12 IST" duration-ms="415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Camera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cameras]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Searching Cameras]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+      </class> <!-- pac.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
