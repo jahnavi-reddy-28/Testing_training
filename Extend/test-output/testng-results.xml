@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching Browser]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Desktop Menu]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Mac Option]]>
+    </line>
+    <line>
+      <![CDATA[Mac Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Selected Sort : Name (A - Z)]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Desktop Menu]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Mac Option]]>
+    </line>
+    <line>
+      <![CDATA[Mac Page Verified]]>
+    </line>
+    <line>
+      <![CDATA[Selected Sort : Name (Z - A)]]>
+    </line>
+    <line>
+      <![CDATA[Search Verified : Monitors]]>
+    </line>
+    <line>
+      <![CDATA[Search Verified : Phones]]>
+    </line>
+    <line>
+      <![CDATA[Search Verified : Cameras]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-08-12T16:20:19 IST" name="Default suite" finished-at="2026-08-12T16:20:28 IST" duration-ms="9316">
+    <groups>
+    </groups>
+    <test started-at="2026-08-12T16:20:19 IST" name="Default test" finished-at="2026-08-12T16:20:28 IST" duration-ms="9316">
+      <class name="pac.DesktopTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pac.DesktopTest@7817fd62]" started-at="2026-08-12T16:20:07 IST" name="setup" finished-at="2026-08-12T16:20:19 IST" duration-ms="11993" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:pac.DesktopTest@7817fd62]" started-at="2026-08-12T16:20:19 IST" name="openApplication" finished-at="2026-08-12T16:20:21 IST" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="DesktopFlow(java.lang.String)[pri:0, instance:pac.DesktopTest@7817fd62]" started-at="2026-08-12T16:20:21 IST" name="DesktopFlow" data-provider="sortData" finished-at="2026-08-12T16:20:23 IST" duration-ms="1662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (A - Z)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Desktop Menu]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Mac Option]]>
+            </line>
+            <line>
+              <![CDATA[Mac Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Selected Sort : Name (A - Z)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DesktopFlow -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:pac.DesktopTest@7817fd62]" started-at="2026-08-12T16:20:23 IST" name="openApplication" finished-at="2026-08-12T16:20:23 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="DesktopFlow(java.lang.String)[pri:0, instance:pac.DesktopTest@7817fd62]" started-at="2026-08-12T16:20:23 IST" name="DesktopFlow" data-provider="sortData" finished-at="2026-08-12T16:20:24 IST" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name (Z - A)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked Desktop Menu]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Mac Option]]>
+            </line>
+            <line>
+              <![CDATA[Mac Page Verified]]>
+            </line>
+            <line>
+              <![CDATA[Selected Sort : Name (Z - A)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DesktopFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pac.DesktopTest@7817fd62]" started-at="2026-08-12T16:20:29 IST" name="tearDown" finished-at="2026-08-12T16:20:30 IST" duration-ms="1699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pac.DesktopTest -->
+      <class name="pac.SearchTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:pac.SearchTest@3bd82cf5]" started-at="2026-08-12T16:20:24 IST" name="openApplication" finished-at="2026-08-12T16:20:25 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:pac.SearchTest@3bd82cf5]" started-at="2026-08-12T16:20:25 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-12T16:20:26 IST" duration-ms="775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Monitors]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search Verified : Monitors]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:pac.SearchTest@3bd82cf5]" started-at="2026-08-12T16:20:26 IST" name="openApplication" finished-at="2026-08-12T16:20:26 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:pac.SearchTest@3bd82cf5]" started-at="2026-08-12T16:20:26 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-12T16:20:27 IST" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phones]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search Verified : Phones]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:pac.SearchTest@3bd82cf5]" started-at="2026-08-12T16:20:27 IST" name="openApplication" finished-at="2026-08-12T16:20:27 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="searchFlowTest(java.lang.String,java.lang.String)[pri:0, instance:pac.SearchTest@3bd82cf5]" started-at="2026-08-12T16:20:27 IST" name="searchFlowTest" data-provider="searchData" finished-at="2026-08-12T16:20:28 IST" duration-ms="1138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Camera]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cameras]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Search Verified : Cameras]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchFlowTest -->
+      </class> <!-- pac.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
