@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  NOTE: Root element renamed from <login_details> to <object_repository> since
+  it now holds locators for multiple modules, not just login. The lookup code
+  in Utilities.XMLObjectRepository uses "//" + locatorName, so this rename is
+  safe and does not break existing usages (login_POM, logintest, LoginTest).
+
+  Locators marked TODO_UPDATE were not visible in the provided screenshots
+  (only the nav menus and the "Select Employee" search box were visible).
+  Inspect the live app (F12 -> Elements) and replace them with real
+  id / name / css / xpath values before running the related steps.
+  Format is  <type>:<value>   where type is one of: id | name | xpath | css
+-->
+
+<object_repository>
+
+    <!-- ===================== LOGIN (existing) ===================== -->
+    <usern>name:username</usern>
+    <passw>name:password</passw>
+    <loginbutton>xpath://button[@type='submit']</loginbutton>
+    <dashboard>xpath://h6[text()='Dashboard']</dashboard>
+
+    <!-- ===================== TOP NAVIGATION (confirmed from screenshots) ===================== -->
+    <nav_timesheets>xpath://*[self::button or self::a or self::div][normalize-space()='Timesheets']</nav_timesheets>
+    <nav_attendance>xpath://*[self::button or self::a or self::div][normalize-space()='Attendance']</nav_attendance>
+    <nav_reports>xpath://*[self::button or self::a or self::div][normalize-space()='Reports']</nav_reports>
+    <nav_projectinfo>xpath://*[self::button or self::a or self::div][normalize-space()='Project Info']</nav_projectinfo>
+
+    <!-- ===================== TIMESHEETS SUBMENU (confirmed) ===================== -->
+    <sub_my_timesheets>xpath://*[normalize-space()='My Timesheets']</sub_my_timesheets>
+    <sub_employee_timesheets>xpath://*[normalize-space()='Employee Timesheets']</sub_employee_timesheets>
+
+    <!-- ===================== ATTENDANCE SUBMENU (confirmed) ===================== -->
+    <sub_my_records>xpath://*[normalize-space()='My Records']</sub_my_records>
+    <sub_punch_in_out>xpath://*[normalize-space()='Punch In/Out']</sub_punch_in_out>
+    <sub_employee_records>xpath://*[normalize-space()='Employee Records']</sub_employee_records>
+    <sub_configuration>xpath://*[normalize-space()='Configuration']</sub_configuration>
+
+    <!-- ===================== REPORTS SUBMENU (confirmed) ===================== -->
+    <sub_project_reports>xpath://*[normalize-space()='Project Reports']</sub_project_reports>
+    <sub_employee_reports>xpath://*[normalize-space()='Employee Reports']</sub_employee_reports>
+    <sub_attendance_summary>xpath://*[normalize-space()='Attendance Summary']</sub_attendance_summary>
+
+    <!-- ===================== PROJECT INFO SUBMENU (confirmed) ===================== -->
+    <sub_customers>xpath://*[normalize-space()='Customers']</sub_customers>
+    <sub_projects>xpath://*[normalize-space()='Projects']</sub_projects>
+
+    <!-- ===================== COMMON "SELECT EMPLOYEE" WIDGET (confirmed) ===================== -->
+    <employee_name_input>xpath://input[@placeholder='Type for hints...']</employee_name_input>
+    <employee_hint_option>xpath:(//div[contains(@class,'hint') or contains(@class,'option') or contains(@class,'suggestion')])[1]</employee_hint_option>
+
+    <!-- ===================== TIMESHEET CRUD (TODO_UPDATE - not visible in screenshots) ===================== -->
+    <ts_create_button>TODO_UPDATE:xpath://button[contains(text(),'Create') or contains(text(),'Add')]</ts_create_button>
+    <ts_edit_button>TODO_UPDATE:xpath://button[contains(text(),'Edit')]</ts_edit_button>
+    <ts_delete_button>TODO_UPDATE:xpath://button[contains(text(),'Delete')]</ts_delete_button>
+    <ts_delete_confirm_button>TODO_UPDATE:xpath://button[contains(text(),'Yes') or contains(text(),'Confirm')]</ts_delete_confirm_button>
+    <ts_delete_cancel_button>TODO_UPDATE:xpath://button[contains(text(),'No') or contains(text(),'Cancel')]</ts_delete_cancel_button>
+    <ts_save_button>TODO_UPDATE:xpath://button[contains(text(),'Save')]</ts_save_button>
+    <ts_submit_button>TODO_UPDATE:xpath://button[contains(text(),'Submit')]</ts_submit_button>
+    <ts_hours_input>TODO_UPDATE:xpath://input[@name='hours' or contains(@id,'hours')]</ts_hours_input>
+    <ts_date_input>TODO_UPDATE:xpath://input[@name='date' or contains(@id,'date')]</ts_date_input>
+    <ts_success_message>TODO_UPDATE:xpath://*[contains(text(),'Success') or contains(text(),'saved')]</ts_success_message>
+    <ts_status_field>TODO_UPDATE:xpath://*[contains(@class,'status')]</ts_status_field>
+    <ts_list_rows>TODO_UPDATE:xpath://table//tbody/tr</ts_list_rows>
+    <ts_no_records_message>TODO_UPDATE:xpath://*[contains(text(),'No Records Found')]</ts_no_records_message>
+
+    <!-- ===================== TIMESHEET APPROVAL (Admin) (TODO_UPDATE) ===================== -->
+    <ts_approve_button>TODO_UPDATE:xpath://button[contains(text(),'Approve')]</ts_approve_button>
+    <ts_reject_button>TODO_UPDATE:xpath://button[contains(text(),'Reject')]</ts_reject_button>
+    <ts_reject_comment_box>TODO_UPDATE:xpath://textarea[contains(@id,'comment') or contains(@name,'comment')]</ts_reject_comment_box>
+    <ts_notification_banner>TODO_UPDATE:xpath://*[contains(@class,'notification') or contains(@class,'toast')]</ts_notification_banner>
+
+    <!-- ===================== ATTENDANCE (TODO_UPDATE) ===================== -->
+    <att_mark_button>TODO_UPDATE:xpath://button[contains(text(),'Mark Attendance') or contains(text(),'Punch')]</att_mark_button>
+    <att_date_input>TODO_UPDATE:xpath://input[@name='attendanceDate' or contains(@id,'date')]</att_date_input>
+    <att_save_button>TODO_UPDATE:xpath://button[contains(text(),'Save')]</att_save_button>
+    <att_records_table>TODO_UPDATE:xpath://table[contains(@class,'attendance')]//tbody/tr</att_records_table>
+    <att_filter_date_from>TODO_UPDATE:xpath://input[contains(@id,'fromDate')]</att_filter_date_from>
+    <att_filter_date_to>TODO_UPDATE:xpath://input[contains(@id,'toDate')]</att_filter_date_to>
+
+    <!-- ===================== REPORTS (TODO_UPDATE) ===================== -->
+    <rep_project_filter>TODO_UPDATE:xpath://select[contains(@id,'project')]</rep_project_filter>
+    <rep_date_from>TODO_UPDATE:xpath://input[contains(@id,'fromDate')]</rep_date_from>
+    <rep_date_to>TODO_UPDATE:xpath://input[contains(@id,'toDate')]</rep_date_to>
+    <rep_generate_button>TODO_UPDATE:xpath://button[contains(text(),'View') or contains(text(),'Generate')]</rep_generate_button>
+    <rep_result_table>TODO_UPDATE:xpath://table[contains(@class,'report')]//tbody/tr</rep_result_table>
+
+    <!-- ===================== SEARCH / FILTER (TODO_UPDATE) ===================== -->
+    <flt_status_dropdown>TODO_UPDATE:xpath://select[contains(@id,'status')]</flt_status_dropdown>
+    <flt_search_button>TODO_UPDATE:xpath://button[contains(text(),'Search')]</flt_search_button>
+    <flt_reset_button>TODO_UPDATE:xpath://button[contains(text(),'Reset')]</flt_reset_button>
+    <flt_no_records_message>TODO_UPDATE:xpath://*[contains(text(),'No Records Found')]</flt_no_records_message>
+
+</object_repository>
